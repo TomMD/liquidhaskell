@@ -62,3 +62,26 @@ take :: Int -> L a -> L a
 take 0 _        = N
 take n (C x xs) = x `C` take (n-1) xs
 take _ N        = liquidError "never happens"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
